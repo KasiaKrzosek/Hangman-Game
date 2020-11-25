@@ -23,11 +23,11 @@ namespace Hangman
             int counter, count, i;
             counter = count = i = 0;            
             int live = 5;
-            string capitals = @"C:\Users\Kasia K\Desktop\EU country, capitals.txt";
+            string capitals = @"EU country, capitals.txt";
             string lines, line, s;
             string capital = "1";
             string country = "1";
-            string path = @"E:\projekty\Hangman\Hangman\Results.txt";
+            string path = @"Results.txt";
             //listy zgadywane litery,zle,zle slowa
             List<string> letterGuessed = new List<string>();
             List<string> letterWrongs = new List<string>();
